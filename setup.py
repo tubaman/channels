@@ -19,7 +19,7 @@ setup(
     extras_require={
         'tests': [
             'coverage',
-            'mock ; python_version < "3.0"',
+            #'mock ; python_version < "3.0"',
             'flake8>=2.0,<3.0',
             'isort',
         ],
